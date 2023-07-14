@@ -2,7 +2,9 @@
 <html>
 <body>
 
-<h2>JavaScript Arithmetic</h2>
+<h2>JavaScript practise
+    <title>JS_PRACTISE</title>
+</h2>
 <p>A typical arithmetic operation takes two numbers and produces a new number.</p>
 
 <p id="demo"></p>
@@ -14,7 +16,26 @@ document.getElementById("demo").innerHTML = data;
 function Do_it(a,b) {
     return a ** b;
 }
+
+<h2> Learning how to disable a button and after that how to enable a button </h2>
 </script>
+<form>
+    <input type="button" id="btn001" value="OK">
+    </form>
+    
+    <p>Click the "Disable" button to disable the "OK" button:</p>
+    
+    <button onclick="disableElement1()">Disable</button>
+    <button onclick="disableElement2()">Enable</button>
+    
+    <script>
+    function disableElement1() {
+      document.getElementById("btn001").disabled = true;
+    }
+    function disableElement2() {
+      document.getElementById("btn001").disabled = false;
+    }
+    </script>
 
 </body>
 </html>
