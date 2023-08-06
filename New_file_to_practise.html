@@ -1,57 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h2>JavaScript practise
-    <title>JS_PRACTISE</title>
-</h2>
-<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
-
-<p id="demo"></p>
- 
- <!-- making new css file for the button and paragraph -->
- <h1>making para and button and design it also making it work using js</h1>
- <link rel="stylesheet" href="styling_ho.css" >
- <p id ="btn_p">Click in the button to see something</p>
- <button type="button" name="button" id="btn">CLICK!</button>
- <script src="jsfile.js"></script>
- <br>
- <br>
- <br>
- <br>
- <br>
-
-<script>
-let data = Do_it(3,5);
-// text += " javascript";
-document.getElementById("demo").innerHTML = data;
-function Do_it(a,b) {
-    return a ** b;
-}
-
-<h2> Learning how to disable a button and after that how to enable a button </h2>
-</script>
-<form>
-    <input type="button" id="btn001" value="OK">
-    </form>
-    
-    <p>Click the "Disable" button to disable the "OK" button:</p>
-    
-    <button onclick="disableElement1()">Disable</button>
-    <button onclick="disableElement2()">Enable</button>
-    
-    <script>
-    function disableElement1() {
-      document.getElementById("btn001").disabled = true;
+<head>
+  <title>Learning</title>
+</head>
+<style>
+      #click{
+       background-color: red;
+       height: 100px;
+       width: 700px;
+       padding: 5px;
+       text-align: center;
+       font-size: large;
+       font-weight: bold;
     }
-    function disableElement2() {
-      document.getElementById("btn001").disabled = false;
+    #Box{
+      display: none;
+      background-color: black;
+      width: 600px;
+      padding: 50px;
+      text-align: center;
+      color: yellow;
     }
-    </script>
-    <h1>
-      how to link html to js file
-      <script src="/jsfile.js"></script>
-    </h1>
+</style>
+  <button id ="click">CLICK</button>
+  <div id = "Box">
+    <p>Heeey!</p>
+  </div>
+  <button id ="stop">STOP</button>
 
+  <br>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src = "jsfile.js"></script>
 </body>
 </html>

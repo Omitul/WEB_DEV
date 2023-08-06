@@ -1,7 +1,8 @@
-///alert("asche"); eta dile page open korlei ei msg asbe, apatoto comment kore rakhlam
-(function(){
-  const button = document.getElementById('btn');
-  button.addEventListener('click',function() {
-     alert('succesfully clicked');   
-  });
-})();
+$(document).ready(function(){
+   $('#click').click(function(){
+     $('#Box').slideDown(6000);
+   });
+   $('#stop').click(function(){
+      $('#Box').stop();
+   });
+});
