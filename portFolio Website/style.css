@@ -88,3 +88,14 @@ nav li {
     text-align: center;
     font-size: 18px;
 }
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
+}
