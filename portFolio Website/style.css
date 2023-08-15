@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .text-primary{
     color: #FD6E0A;
@@ -147,4 +148,9 @@ nav li {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+footer{
+    display: flex;
+    padding:130px 200px;
+    margin-top: 100px;
 }
