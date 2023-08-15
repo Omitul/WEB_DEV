@@ -153,4 +153,25 @@ footer{
     display: flex;
     padding:130px 200px;
     margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+/* .contact-form{
+   display: hrflex;
+} */
+.contact-form input[type="text"], .contact-form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
+}
+
+.social-links a{
+   margin-right: 25px; 
 }
